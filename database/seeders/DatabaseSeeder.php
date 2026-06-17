@@ -21,5 +21,8 @@ class DatabaseSeeder extends Seeder
             'name' => 'Test User',
             'email' => 'test@example.com',
         ]);
+
+        // Llamamos al seeder de chollos para que la base de datos no empiece vacía
+        $this->call(CholloSeeder::class);
     }
 }
