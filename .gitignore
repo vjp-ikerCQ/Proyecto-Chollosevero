@@ -2,6 +2,7 @@
 .DS_Store
 .*
 !.gitignore
+!.env.example
 .env
 .env.backup
 .env.production
